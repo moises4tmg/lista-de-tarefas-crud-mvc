@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJQz4vOVhUWKMyVagK10qU1WZpsorXDFjTf0hBoB04mCvCSRk9H4HdlFegdRXzFPnl0hD2fjGoAzVOCv5eUV5Q==",
+  "dgSpecHash": "tuZONrclmvKAMYANuncs1q5I9vUl2Tnqj85/0qAyluZp3TehPK/MkkqOlaFQhy3kgxOC0nmmfrn+0M93nt4d4A==",
   "success": true,
-  "projectFilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/lista_de_tarefas.csproj",
+  "projectFilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/lista_de_tarefas.csproj",
   "expectedPackageFiles": [
     "/home/tmg/.nuget/packages/bcrypt.net-next/4.0.2/bcrypt.net-next.4.0.2.nupkg.sha512",
     "/home/tmg/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

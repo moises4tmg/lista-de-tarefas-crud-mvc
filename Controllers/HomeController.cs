@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using lista_de_tarefas.Models;
+using TarefasApp.Models;
 
-namespace lista_de_tarefas.Controllers
+namespace TarefasApp.Controllers
 {
     public class HomeController : Controller
     {
@@ -23,7 +23,7 @@ namespace lista_de_tarefas.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Sobre()
         {
             return View();
         }

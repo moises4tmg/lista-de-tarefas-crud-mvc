@@ -7192,11 +7192,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/lista_de_tarefas.csproj",
+      "projectUniqueName": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/lista_de_tarefas.csproj",
       "projectName": "lista_de_tarefas",
-      "projectPath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/lista_de_tarefas.csproj",
+      "projectPath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/lista_de_tarefas.csproj",
       "packagesPath": "/home/tmg/.nuget/packages/",
-      "outputPath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/obj/",
+      "outputPath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tmg/.nuget/NuGet/NuGet.Config"

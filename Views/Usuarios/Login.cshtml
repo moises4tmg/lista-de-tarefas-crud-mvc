@@ -1,0 +1,38 @@
+@model Auth
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+    ViewData["Title"] = "Login";
+    ViewData["BackGround"] = "background = #e6ecf3;";
+}
+
+<!--Container Start-->
+<div class="container" style="text-align: center;">
+    <img src="~/img/logo-tarefas.png" alt="Logomarca da empresa" width="200" height="200"> 
+    <form asp-action="Login">
+        <div class="row justify-content-md-center">
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="login-screen">
+                    @if (!string.IsNullOrEmpty(@Model.AuthResposta))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @Model.AuthResposta
+                        </div>
+                    }
+                    <div class="login-box">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="Login" type="text" class="form-control" placeholder="Usuário">
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="Senha" type="password" class="form-control" placeholder="Senha">
+                        </div>
+                        <div class="actions">
+                            <button type="submit" class="btn btn-primary btn-block">LOGIN</button>
+                            <a asp-controller="Usuarios" asp-action="Create" class="btn btn-warning btn-block">SIGN UP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

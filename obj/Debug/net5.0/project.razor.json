@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/lista_de_tarefas.csproj",
+  "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/lista_de_tarefas.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,38 +15619,88 @@
   "RootNamespace": "lista_de_tarefas",
   "Documents": [
     {
-      "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Shared/_LayoutLogin.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutLogin.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/Views/Shared/_Layout.cshtml",
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/Views/_ViewImports.cshtml",
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Usuarios/Create.cshtml",
+      "TargetPath": "Views\\Usuarios\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Home/Sobre.cshtml",
+      "TargetPath": "Views\\Home\\Sobre.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/Views/Shared/Error.cshtml",
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Tarefas/Delete.cshtml",
+      "TargetPath": "Views\\Tarefas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Usuarios/Delete.cshtml",
+      "TargetPath": "Views\\Usuarios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Tarefas/Index.cshtml",
+      "TargetPath": "Views\\Tarefas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Tarefas/Edit.cshtml",
+      "TargetPath": "Views\\Tarefas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tmg/VisualStudio/mvc_testing/lista_de_tarefas/Views/Home/Index.cshtml",
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Usuarios/Edit.cshtml",
+      "TargetPath": "Views\\Usuarios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Usuarios/Details.cshtml",
+      "TargetPath": "Views\\Usuarios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Usuarios/Login.cshtml",
+      "TargetPath": "Views\\Usuarios\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/Tarefas/Create.cshtml",
+      "TargetPath": "Views\\Tarefas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/TarefasApp/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

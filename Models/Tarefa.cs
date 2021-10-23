@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace lista_de_tarefas.Models
+namespace TarefasApp.Models
 {
     public class Tarefa
     {
@@ -12,13 +12,17 @@ namespace lista_de_tarefas.Models
         [Display(Name = "ID do Usuário")]
         public int UsuarioId { get; set; }
 
-        [Display(Name = "Data")]
+        [Display(Name = "Data prazo")]
+        [Required(ErrorMessage = "Informe uma data prazo para a realização da tarefa")]
+
         public DateTime Data { get; set; }
 
-        [Display(Name = "Descrição da Tarefa")]
+        [Display(Name = "Descrição")]
+        [Required(ErrorMessage = "Informe a descrição da tarefa")]
+
         public string Descricao { get; set; }
 
-        [Display(Name = "Status")]
+        [Display(Name = "Tarefa executada")]
         public bool Status { get; set; }
 
         public virtual Usuario Usuario { get; set; }

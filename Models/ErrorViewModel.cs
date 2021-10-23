@@ -1,6 +1,6 @@
 using System;
 
-namespace lista_de_tarefas.Models
+namespace TarefasApp.Models
 {
     public class ErrorViewModel
     {
