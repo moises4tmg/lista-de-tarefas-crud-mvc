@@ -1,4 +1,8 @@
 @{
+    if (ViewBag.UserID == null) //This ViewBag will be null when the user is not logged in
+    {
+        Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+    }
     ViewData["Title"] = "Sobre o projeto";
 }
 <div class="container" style="text-align: center;">
