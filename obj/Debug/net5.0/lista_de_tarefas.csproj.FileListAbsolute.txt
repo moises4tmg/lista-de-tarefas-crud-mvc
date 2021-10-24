@@ -304,3 +304,4 @@
 /home/tmg/VisualStudio/mvc_testing/TarefasApp/obj/Debug/net5.0/Razor/Views/Usuarios/Login.cshtml.g.cs
 /home/tmg/VisualStudio/mvc_testing/TarefasApp/obj/Debug/net5.0/Razor/Views/Home/Sobre.cshtml.g.cs
 /home/tmg/VisualStudio/mvc_testing/TarefasApp/obj/Debug/net5.0/Razor/Views/Shared/_LayoutLogin.cshtml.g.cs
+/home/tmg/VisualStudio/mvc_testing/TarefasApp/obj/Debug/net5.0/Razor/Views/Tarefas/Details.cshtml.g.cs

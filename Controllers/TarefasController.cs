@@ -128,6 +128,21 @@ namespace TarefasApp.Controllers
             return View(tarefa);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> EditFlag([Bind("Id,Status")] Tarefa info)
+        {
+            var tarefa = _context.Tarefa.Where(x => x.Id == info.Id).FirstOrDefault();
+
+            tarefa.Status = info.Status;
+
+            _context.Update(tarefa);
+            await _context.SaveChangesAsync();
+
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Login", tarefa.UsuarioId);
+            ViewBag.UserID = HttpContext.Session.GetString("UserID");
+            return RedirectToAction(nameof(Index));
+        }
+
         // GET: Tarefas/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
